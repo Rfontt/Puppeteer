@@ -1,8 +1,8 @@
 const puppeteer = require("puppeteer");
 
 (async () => {
-	browser = await puppeteer.launch();
-	page = await browser.newPage({
+	const browser = await puppeteer.launch();
+	const page = await browser.newPage({
 		width: 1920,
 		height: 1080
 	});
