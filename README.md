@@ -7,7 +7,7 @@ Nesse programa iremos criar um bot com a ferramenta do node.js: Puppeteer. A qua
 
 <h1 style="text-align: center;"> Sobre o framework </h1>
 
-  ### O Puppeteer é uma ferramento usada como bot que ajuda em testes automatizados para web. Ele serve para realizar muito mais que apenas um screenshot ou transformar um página web em pdf, pois também é utilizado em preenchimento automático de formulários e também para criar bots no instagram como dar like automático ou filtrar comentários.
+  ### O Puppeteer é uma ferramenta usada como bot que ajuda em testes automatizados para web. Ele serve para realizar muito mais que apenas um screenshot ou transformar um página web em pdf, pois também é utilizado em preenchimento automático de formulários e também para criar bots no instagram como dar like automático ou filtrar comentários.
 
 <h1 style="text-align: center;"> Funcionamento </h1>
 
