@@ -51,13 +51,13 @@ await page.goto('https://...');
 
   ### Dito isso, podemos então realizar o screenshot com o comando: 
 ```
-#await page.screenshot({path: 'example.png'});
+await page.screenshot({path: 'example.png'});
 ```
 **O page.sreenshot() é um método que realiza o screenshot da página. O path é o nome que você dará ao arquivo printado.**
 
   ### Depois desses passos precisamos fechar o browser e para isso utilizamos o comando:
 ```
-#await browser.close();
+await browser.close();
 ```
   ### Feito todos esses passos é preciso chamar a função para que tudo isso ocorra. Em poucos minutos isso ocorre como uma grande mágica.
 
@@ -66,7 +66,7 @@ await page.goto('https://...');
 
   ### Com o pdf todo os primeiros comandos são iguais, pois precisamos criar uma instância do browser, abrir um página de visualizãção e passar a url para o mesmo, o que muda é comando é o seguinte comando:
 ```
-#await page.pdf({ path: 'example.pdf', format: 'A4' });
+await page.pdf({ path: 'example.pdf', format: 'A4' });
 ```
 **No do screenshot utilizávamos o .screenshot e nesse ultilizamos o .pdf para indicar que queremos transformar a página em um arquivo pdf.**
 
