@@ -64,7 +64,7 @@ await browser.close();
 <h1 style="text-align: center;"> PDF </h1>
 
 
-  ### Com o pdf todo os primeiros comandos são iguais, pois precisamos criar uma instância do browser, abrir um página de visualizãção e passar a url para o mesmo, o que muda é comando é o seguinte comando:
+  ### Com o pdf todo os primeiros comandos são iguais, pois precisamos criar uma instância do browser, abrir um página de visualizãção e passar a url para a mesma, o que muda é comando é o seguinte comando:
 ```
 await page.pdf({ path: 'example.pdf', format: 'A4' });
 ```
